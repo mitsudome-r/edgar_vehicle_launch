@@ -6,7 +6,7 @@
   <!-- vehicle body -->
   <link name="base_link">
     <visual>
-      <origin xyz="${vehicle_info['/**']['ros__parameters']['wheel_base']/2.0} 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
         <mesh filename="package://edgar_vehicle_description/mesh/edgar.dae" scale="1 1 1"/>
       </geometry>
